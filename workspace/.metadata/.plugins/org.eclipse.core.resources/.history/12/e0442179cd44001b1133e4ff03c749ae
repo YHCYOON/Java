@@ -1,0 +1,18 @@
+package ch05;
+
+public class Ex5_8 {
+
+	public static void main(String[] args) {
+		int[][] score = {
+				{100, 40, 50},
+				{10, 30, 40},
+				{20, 20, 20},
+				{45, 25, 80}
+		};
+		int sum = 0
+				
+		
+		
+	}
+
+}

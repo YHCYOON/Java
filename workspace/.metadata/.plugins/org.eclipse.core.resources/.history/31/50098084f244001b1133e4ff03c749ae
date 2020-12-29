@@ -1,0 +1,13 @@
+package ch05;
+
+public class Ex5_12 {
+
+	public static void main(String[] args) {
+		int[] arr = {0,1,2,3,4};		//  1차원 배열 arr
+		int[][] arr2D = {{11,12}, {21,22}};		// 2차원 배열
+		
+		
+		
+	}
+
+}

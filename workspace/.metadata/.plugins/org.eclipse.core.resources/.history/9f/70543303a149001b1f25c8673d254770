@@ -1,0 +1,58 @@
+package ch06;
+
+public class Ex6_4 {
+
+	public static void main(String[] args) {
+		
+		MyMath mm = new MyMath();
+		long result1 = mm.add(5L, 3L);
+		long result2 = mm.substract(5L, 3L);
+		long result3 = mm.multiply(5L,  3L);
+		double result4 = mm.divide(5L, 3L);
+		long result5 = mm.max(4, 3);
+		mm.printGugudan(3);
+		
+		System.out.println(result1);
+		System.out.println(result2);
+		System.out.println(result3);
+		System.out.println(result4);
+		System.out.println(result5);
+		
+	}
+
+}
+
+class MyMath {
+	void printGugudan(int dan) {
+		for(int i = 1; i < 10; i++) {
+			System.out.printf("%d * %d = %d%n", dan, i, dan*i);
+		}
+	}
+	
+	long add(long a, long b) {
+		long result = a + b;
+		return result;
+		// return a + b
+	}
+	
+	long substract(long a, long b) {
+		return a - b;
+	}
+	
+	long multiply(long a, long b) {
+		return a * b;
+	}
+	
+	double divide(double a, double b) {
+		return a / b;
+	}
+	
+	// 두 값을 받아서 둘중에 큰 값을 반환하는 메서드
+	long max(long a, long b) {
+		if(a<b) {
+			return b;
+		}else {
+			return a;
+		}
+	}
+}
